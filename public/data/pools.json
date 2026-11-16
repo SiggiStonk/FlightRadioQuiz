@@ -1,0 +1,15 @@
+{
+  "demo": true,
+  "pools": [
+    {"id":"bzf","name":"BZF","description":"VFR radio communication","questions":[
+      {"id":"demo-bzf-1","number":"DEMO 01","text":"Which word represents the letter A in the ICAO spelling alphabet?","answers":["Alfa","Apple","Arrow","Able"],"correctIndex":0},
+      {"id":"demo-bzf-2","number":"DEMO 02","text":"Which word represents the letter B in the ICAO spelling alphabet?","answers":["Bravo","Baker","Beta","Berlin"],"correctIndex":0},
+      {"id":"demo-bzf-3","number":"DEMO 03","text":"Which word represents the letter C in the ICAO spelling alphabet?","answers":["Charlie","Cobra","Canada","Charly"],"correctIndex":0}
+    ]},
+    {"id":"azf","name":"AZF","description":"IFR radio communication","questions":[
+      {"id":"demo-azf-1","number":"DEMO 01","text":"Which word represents the letter D in the ICAO spelling alphabet?","answers":["Delta","Denver","David","Dublin"],"correctIndex":0},
+      {"id":"demo-azf-2","number":"DEMO 02","text":"Which word represents the letter E in the ICAO spelling alphabet?","answers":["Echo","Eagle","Easy","Europe"],"correctIndex":0},
+      {"id":"demo-azf-3","number":"DEMO 03","text":"Which word represents the letter F in the ICAO spelling alphabet?","answers":["Foxtrot","Falcon","Frankfurt","Fox"],"correctIndex":0}
+    ]}
+  ]
+}

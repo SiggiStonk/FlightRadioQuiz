@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "id": "bzf",
+      "name": "BZF",
+      "description": "VFR radio communication",
+      "files": [
+        "bzf/*.pdf",
+        "*bzf*.pdf"
+      ],
+      "question_pattern": "^\\s*(?:Frage\\s+)?(?P<number>\\d{1,4})[.)]?(?:\\s+(?P<text>.*))?$",
+      "answer_pattern": "^\\s*(?P<label>[A-Da-d])[.)]?(?:\\s+(?P<text>.*))?$",
+      "ignore_patterns": [
+        "^Prüfungsfragen im Prüfungsteil",
+        "^Stand\\s*[:/]",
+        "^richtige Antwort immer A",
+        "^correct answer always A",
+        "^Seite\\s*/?"
+      ],
+      "expected_answers": 4,
+      "expected_questions": 261,
+      "correct_answer": "first",
+      "text_mode": "catalog-columns",
+      "sequential_numbers": true,
+      "first_page": 7,
+      "content_top": 75,
+      "content_bottom": 810,
+      "label_right": 75,
+      "question_images": {
+        "117": {
+          "page": 25,
+          "image_index": 1,
+          "alt": "Ausgefülltes Dreieck in einem gestrichelten Kreis"
+        },
+        "118": {
+          "page": 25,
+          "image_index": 2,
+          "alt": "Unausgefülltes Dreieck in einem gestrichelten Kreis"
+        }
+      },
+      "valid_from": "2024-05-01"
+    },
+    {
+      "id": "azf",
+      "name": "AZF",
+      "description": "IFR radio communication",
+      "files": [
+        "azf/*.pdf",
+        "*azf*.pdf"
+      ],
+      "question_pattern": "^\\s*(?:Frage\\s+)?(?P<number>\\d{1,4})[.)]?(?:\\s+(?P<text>.*))?$",
+      "answer_pattern": "^\\s*(?P<label>[A-Da-d])[.)]?(?:\\s+(?P<text>.*))?$",
+      "ignore_patterns": [
+        "^Prüfungsfragen im Prüfungsteil",
+        "^Stand\\s*[:/]",
+        "^richtige Antwort immer A",
+        "^correct answer always A",
+        "^Seite\\s*/?"
+      ],
+      "expected_answers": 4,
+      "expected_questions": 289,
+      "correct_answer": "first",
+      "text_mode": "catalog-columns",
+      "sequential_numbers": true,
+      "first_page": 7,
+      "content_top": 75,
+      "content_bottom": 790,
+      "label_right": 75,
+      "valid_from": "2024-05-01"
+    }
+  ]
+}
